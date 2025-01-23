@@ -1,0 +1,108 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fc;
+    background: url(/DEPRECIACION\ DEL\ CARRO/css/gallo.jpg);
+    background-size: cover;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+form {
+    margin-top: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    width: 100%;
+    max-width: 600px;
+    box-sizing: border-box;
+
+}
+
+h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+label {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+    display: block;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #2979cd;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1e56a0;
+}
+
+#resultado {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    margin-top: 20px;
+    width: 100%;
+    max-width: 600px;
+    box-sizing: border-box;
+    display: none;
+    margin-bottom: 10px;
+}
+
+#resultado h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#resultado p {
+    font-size: 1.1rem;
+    margin: 5px 0;
+    
+}
+
+#resultado p strong {
+    color: #2979cd;
+}
+
+#resultado .valor {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #2c6fbb;
+   
+}
+
+#personalizado {
+    margin-top: 10px;
+}
